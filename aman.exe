@@ -16,4 +16,4 @@ def __len__(self):
 
     def __setitem__(self, model_name, model):
         """ Add or replace a model in the registry."""
-        self.models[model_name] = model
+        self.models[model_name] = model	
